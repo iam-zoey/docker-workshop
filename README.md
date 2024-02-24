@@ -21,14 +21,14 @@ docker images
 docker ps -a 
 ```
 
-## Delete container 
+### Delete container 
 ```bash
 docker stop <container_id>
 
 docker rm <container_id>
 ```
 
-# Delete image 
+### Delete image 
 ```bash
 # There should be no running containner with the following image
 docker rmi <image-id>
